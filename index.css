@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(138, 138, 226);
+    height: 100vh;
+}
+
+p {
+    font-size: 20px; padding: 20px 20px 20px 0
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.taskcover {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputarea > input {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 30vw;
+    padding: 10px;
+}
+
+.inputarea > button {
+    background-color: rgb(84, 84, 184);
+    padding: 9px 12px 9px 12px;
+    color: white;
+    font-size: 23px;
+    border: 0;
+    border-radius: 4px;
+    margin-left: -5px;
+}
+
+.taskarea li {
+    list-style-type: none;
+    background-color: lightgray;
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    align-items: center;
+}
+
+.taskarea li .edit {
+    background-color: rgb(84, 84, 184);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.taskarea li .delete {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    margin-left: -5px;
+}
+
+.clearall {
+    text-align: end;
+}
+
+.clearall button {
+    background-color: rgb(84, 84, 184);
+    color: white;
+    padding: 9px 12px 9px 12px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+
+

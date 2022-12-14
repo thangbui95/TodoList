@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="cover">
+
+        <div class="content">
+
+            <h1>To do App</h1>
+
+            <div class="taskcover">
+                
+                <div class="inputarea">
+                    <input placeholder="Add your new to do" id="content">
+                    <button class="addTask" onclick="addTask()">
+                        <i class="fa-sharp fa-solid fa-plus"></i>
+                    </button>
+                </div>
+
+                <div class="taskarea" id="result">
+                    <!-- <p>Not yet have task</p> -->
+                    <!-- <ul>
+                        <li>
+                            <div class="taskname">Learn Javascript</div>
+                            <div class="buttonarea">
+                                <button class="edit">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </button>
+                                <button class="delete">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </div>
+                        </li>
+                    </ul> -->
+                </div>
+
+                <div class="clearall">
+                    <button onclick="clearTask()">Clear all</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
